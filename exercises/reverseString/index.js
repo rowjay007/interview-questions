@@ -10,13 +10,17 @@
 //   return str.split("").reverse().join("");
 // }
 
-function reverse(str) {
-  let reversed = "";
+// function reverse(str) {
+//   let reversed = "";
 
-  for (let letters of str) {
-    reversed = letters + reversed;
-  }
-  return reversed;
+//   for (let letters of str) {
+//     reversed = letters + reversed;
+//   }
+//   return reversed;
+// }
+
+function reverse(str) {
+  return str.split("").reduce((rev, char) => char + rev, "");
 }
 
 module.exports = reverse;
