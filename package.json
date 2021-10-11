@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rowjay007/interview-questions.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rowland Adimoha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rowjay007/interview-questions/issues"
